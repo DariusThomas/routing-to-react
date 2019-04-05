@@ -14,6 +14,7 @@ class Films extends Component {
     }
     render() {
         return <>
+        
             {this.state.filmsArr.map(film => <Film key={film.id} filmInfo={film} />)}
         </>
     }
