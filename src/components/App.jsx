@@ -12,7 +12,6 @@ class App extends Component {
                 <Fragment>
                 <Link to ="/" className=" btn btn-primary m-1">Go Home</Link>
                 <Link to="/films" className=" btn btn-primary m-1">View Films</Link>
-                <Link to="/films/some-ext" className=" btn btn-primary m-1"> Castle in the Sky Info</Link>
                 <Link to="/people" className=" btn btn-primary m-1"> View People</Link>
                 <Switch>
                     <Route exact path="/" component={Home} />
